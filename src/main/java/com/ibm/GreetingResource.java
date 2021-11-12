@@ -22,6 +22,6 @@ public class GreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         LOG.info("hello");
-        return "Hello RESTEasy";
+        return "Hello RESTEasy test update return";
     }
 }
